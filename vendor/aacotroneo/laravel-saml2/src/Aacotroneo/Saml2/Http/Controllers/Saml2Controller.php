@@ -40,6 +40,7 @@ class Saml2Controller extends Controller
     public function acs()
     {
         $errors = $this->saml2Auth->acs();
+        print_r($errors);
         echo $this->saml2Auth->getLastErrorReason();exit;
 
         if (!empty($errors)) {
