@@ -111,18 +111,18 @@ return $settings = array(
     // Identity Provider Data that we want connect with our SP
     'idp' => array(
         // Identifier of the IdP entity  (must be a URI)
-        'entityId' => 'https://app.onelogin.com/saml/metadata/735031',
+        'entityId' => 'https://app.onelogin.com/saml/metadata/735068',
         // SSO endpoint info of the IdP. (Authentication Request protocol)
         'singleSignOnService' => array(
             // URL Target of the IdP where the SP will send the Authentication Request Message,
             // using HTTP-Redirect binding.
-            'url' => 'https://west-agile-labs-dev.onelogin.com/trust/saml2/http-post/sso/735031',
+            'url' => 'https://west-agile-labs-dev.onelogin.com/trust/saml2/http-post/sso/735068',
         ),
         // SLO endpoint info of the IdP.
         'singleLogoutService' => array(
             // URL Location of the IdP where the SP will send the SLO Request,
             // using HTTP-Redirect binding.
-            'url' => 'https://west-agile-labs-dev.onelogin.com/trust/saml2/http-redirect/slo/735031',
+            'url' => 'https://west-agile-labs-dev.onelogin.com/trust/saml2/http-redirect/slo/735068',
         ),
         // Public x509 certificate of the IdP
         'x509cert' => 'MIIELzCCAxegAwIBAgIUcvbiroRY3uCDSGEiBA0SEbS99zswDQYJKoZIhvcNAQEF
