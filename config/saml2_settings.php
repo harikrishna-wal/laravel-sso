@@ -111,7 +111,7 @@ return $settings = array(
     // Identity Provider Data that we want connect with our SP
     'idp' => array(
         // Identifier of the IdP entity  (must be a URI)
-        'entityId' => 'https://app.onelogin.com/saml/metadata/733193',
+        'entityId' => 'https://app.onelogin.com/saml/metadata/735031',
         // SSO endpoint info of the IdP. (Authentication Request protocol)
         'singleSignOnService' => array(
             // URL Target of the IdP where the SP will send the Authentication Request Message,
