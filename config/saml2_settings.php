@@ -231,7 +231,7 @@ OUHpWSvt5nX9bQQeP9gafKytTw==',
         'en-US' => array(
             'name' => 'Name',
             'displayname' => 'Display Name',
-            'url' => 'http://url'
+            'url' => 'https://url'
         ),
     ),
 
