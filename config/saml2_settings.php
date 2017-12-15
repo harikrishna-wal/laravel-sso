@@ -1,7 +1,7 @@
 <?php
 
 //This is variable is an example - Just make sure that the urls in the 'idp' config are ok.
-$idp_host = 'http://laravel-sso.local';
+$idp_host = 'https://laravel-sso.herokuapp.com';
 
 return $settings = array(
 
