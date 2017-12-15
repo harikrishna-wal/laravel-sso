@@ -40,8 +40,6 @@ class Saml2Controller extends Controller
     public function acs()
     {
         $errors = $this->saml2Auth->acs();
-        //print_r($errors);
-        //echo $this->saml2Auth->getLastErrorReason();exit;
 
         if (!empty($errors)) {
             logger()->error('Saml2 error_detail', ['error' => $this->saml2Auth->getLastErrorReason()]);
@@ -60,7 +58,7 @@ class Saml2Controller extends Controller
 
         if ($redirectUrl !== null) {
           $urlParts = parse_url(\Request::url());
-          return redirect($urlParts['scheme'].'://'.$urlParts['host'].'/login');
+          return redirect($urlParts['scheme'].'s://'.$urlParts['host'].'/login');
           //return redirect($redirectUrl);
         } else {
 
