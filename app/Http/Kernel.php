@@ -21,6 +21,7 @@ class Kernel extends HttpKernel
         \App\Http\Middleware\TrustProxies::class,
         \Illuminate\Session\Middleware\StartSession::class,
         \App\Http\Middleware\StartSession::class,
+        \Shin1x1\ForceHttpsUrlScheme\ForceHttpsUrlScheme::class,
     ];
 
     /**
@@ -59,5 +60,6 @@ class Kernel extends HttpKernel
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'force_https_url_scheme' => \Shin1x1\ForceHttpsUrlScheme\ForceHttpsUrlScheme::class,
     ];
 }

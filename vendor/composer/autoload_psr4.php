@@ -25,6 +25,8 @@ return array(
     'Symfony\\Component\\Debug\\' => array($vendorDir . '/symfony/debug'),
     'Symfony\\Component\\CssSelector\\' => array($vendorDir . '/symfony/css-selector'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
+    'Shin1x1\\ForceHttpsUrlScheme\\Test\\' => array($vendorDir . '/shin1x1/laravel-force-https-url-scheme/tests'),
+    'Shin1x1\\ForceHttpsUrlScheme\\' => array($vendorDir . '/shin1x1/laravel-force-https-url-scheme/src'),
     'RobRichards\\XMLSecLibs\\' => array($vendorDir . '/robrichards/xmlseclibs/src'),
     'Ramsey\\Uuid\\' => array($vendorDir . '/ramsey/uuid/src'),
     'Psy\\' => array($vendorDir . '/psy/psysh/src/Psy'),

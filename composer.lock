@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "554d86783cc2983b2a39e6659e645a43",
+    "content-hash": "d373d3e5a14d6b730a068efc7c848b6d",
     "packages": [
         {
             "name": "aacotroneo/laravel-saml2",
@@ -1409,6 +1409,55 @@
                 "xmldsig"
             ],
             "time": "2017-08-31T09:27:07+00:00"
+        },
+        {
+            "name": "shin1x1/laravel-force-https-url-scheme",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shin1x1/laravel-force-https-url-scheme.git",
+                "reference": "cf20de3fcf2270ff752296ea3cebe4431f8a248b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shin1x1/laravel-force-https-url-scheme/zipball/cf20de3fcf2270ff752296ea3cebe4431f8a248b",
+                "reference": "cf20de3fcf2270ff752296ea3cebe4431f8a248b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/container": "~5.0",
+                "illuminate/http": "~5.0",
+                "php": ">5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Shin1x1\\ForceHttpsUrlScheme\\": "src",
+                    "Shin1x1\\ForceHttpsUrlScheme\\Test\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Masashi Shinbara",
+                    "email": "shin1x1@gmail.com",
+                    "homepage": "https://github.com/shin1x1"
+                }
+            ],
+            "description": "Force https url schema middleware for Laravel 5",
+            "homepage": "https://github.com/shin1x1/laravel-force-https-url-scheme",
+            "keywords": [
+                "laravel",
+                "middleware"
+            ],
+            "time": "2016-04-30T04:21:47+00:00"
         },
         {
             "name": "simplesamlphp/saml2",

@@ -53,6 +53,8 @@ class ComposerStaticInite06b6ce48cc69ad47c2dceb616799dd5
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Shin1x1\\ForceHttpsUrlScheme\\Test\\' => 33,
+            'Shin1x1\\ForceHttpsUrlScheme\\' => 28,
         ),
         'R' => 
         array (
@@ -185,6 +187,14 @@ class ComposerStaticInite06b6ce48cc69ad47c2dceb616799dd5
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Shin1x1\\ForceHttpsUrlScheme\\Test\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/shin1x1/laravel-force-https-url-scheme/tests',
+        ),
+        'Shin1x1\\ForceHttpsUrlScheme\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/shin1x1/laravel-force-https-url-scheme/src',
         ),
         'RobRichards\\XMLSecLibs\\' => 
         array (
@@ -347,11 +357,11 @@ class ComposerStaticInite06b6ce48cc69ad47c2dceb616799dd5
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
+        'App\\Http\\Middleware\\StartSession' => __DIR__ . '/../..' . '/app/Http/Middleware/StartSession.php',
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Listeners\\EventListener' => __DIR__ . '/../..' . '/app/Listeners/EventListener.php',
-        'App\\Listeners\\Saml2LoginEventListener' => __DIR__ . '/../..' . '/app/Listeners/Saml2LoginEventListener.php',
         'App\\Listeners\\SamlLoginEventFired' => __DIR__ . '/../..' . '/app/Listeners/SamlLoginEventFired.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
@@ -3160,6 +3170,9 @@ class ComposerStaticInite06b6ce48cc69ad47c2dceb616799dd5
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'SessionUpdateTimestampHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
+        'Shin1x1\\ForceHttpsUrlScheme\\ForceHttpsUrlScheme' => __DIR__ . '/..' . '/shin1x1/laravel-force-https-url-scheme/src/ForceHttpsUrlScheme.php',
+        'Shin1x1\\ForceHttpsUrlScheme\\Test\\ForceHttpsUrlSchemeTest' => __DIR__ . '/..' . '/shin1x1/laravel-force-https-url-scheme/tests/ForceHttpsUrlSchemeTest.php',
+        'Shin1x1\\ForceHttpsUrlScheme\\Test\\Helpers' => __DIR__ . '/..' . '/shin1x1/laravel-force-https-url-scheme/tests/Utils/Helpers.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',
         'Symfony\\Component\\Console\\CommandLoader\\ContainerCommandLoader' => __DIR__ . '/..' . '/symfony/console/CommandLoader/ContainerCommandLoader.php',

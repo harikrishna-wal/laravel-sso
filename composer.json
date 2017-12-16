@@ -11,6 +11,7 @@
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
         "onelogin/php-saml": "^2.12",
+        "shin1x1/laravel-force-https-url-scheme": "^1.1",
         "simplesamlphp/saml2": "^3.0"
     },
     "require-dev": {
