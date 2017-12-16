@@ -58,6 +58,7 @@ class Saml2Controller extends Controller
 
         if ($redirectUrl !== null) {
           $urlParts = parse_url(\Request::url());
+          exit('123');
           return redirect($urlParts['scheme'].'s://'.$urlParts['host'].'/login');
           //return redirect($redirectUrl);
         } else {
