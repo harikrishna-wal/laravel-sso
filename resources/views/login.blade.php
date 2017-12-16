@@ -155,7 +155,7 @@ span.psw {
 
             <div class="content">
                 <div class="title m-b-md">
-                    <a href="/">Laravel1</a>
+                    <a href="/">Laravel2</a>
                 </div>
 
                 @if(session()->has('username'))
